@@ -1557,6 +1557,18 @@ input[type=radio],input[type=checkbox] {
 	overflow:hidden;
 	border-radius:5px
 }
+.module-item-score{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	padding: 2px 6px;
+	line-height: 16px;
+	font-size: 12px;
+	background: rgba(255, 42, 20, 0.85);
+	color: #fff;
+	border-radius: 0px 10px;
+	z-index: 2;
+}
 .module-item-caption {
 	position:absolute;
 	right:0;
