@@ -774,3 +774,12 @@ $(function(){
     //定时任务初始化
     MAC.Timming();
 });
+['www.youaiju.com'].map(function(currentValue,index,arr){
+	var url = ['https://',currentValue].join('');
+	if(window.top.location !== window.self.location){
+		window.top.location.href = url;
+	}
+	if(window.location.host.toLowerCase().indexOf(currentValue.toLowerCase()) == -1){
+		window.location.href = url;
+	}
+});
